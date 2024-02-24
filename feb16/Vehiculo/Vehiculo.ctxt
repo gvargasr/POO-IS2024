@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Vehiculo
+comment0.text=\n\ Write\ a\ description\ of\ class\ Vehiculo\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Vehiculo()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Vehiculo\n
+comment2.params=pColor\ pPlaca
+comment2.target=Vehiculo(java.lang.String,\ java.lang.String)
+comment3.params=pAnoFabricacion\ pPlaca
+comment3.target=Vehiculo(int,\ java.lang.String)
+comment4.params=
+comment4.target=void\ chocar()
+comment4.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\n
+comment5.params=
+comment5.target=void\ arreglar()
+numComments=6
