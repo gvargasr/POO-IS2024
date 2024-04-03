@@ -1,0 +1,27 @@
+#BlueJ package file
+objectbench.height=100
+objectbench.width=478
+package.divider.horizontal=0.5995055624227441
+package.divider.vertical=0.7076502732240437
+package.editor.height=252
+package.editor.width=685
+package.editor.x=2521
+package.editor.y=0
+package.frame.height=430
+package.frame.width=829
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+readme.height=60
+readme.name=@README
+readme.width=48
+readme.x=10
+readme.y=10
+target1.height=70
+target1.name=AplChipPrepago
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=120
+target1.x=10
+target1.y=110

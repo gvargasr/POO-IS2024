@@ -1,0 +1,88 @@
+Project documentation
+<---- javadoc command: ---->
+javadoc
+-sourcepath
+/Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas
+-source
+17
+-classpath
+/Applications/BlueJ.app/Contents/Java/bluejcore.jar:/Applications/BlueJ.app/Contents/Java/javafx-base-20.0.1.jar:/Applications/BlueJ.app/Contents/Java/javafx-graphics-20.0.1.jar:/Applications/BlueJ.app/Contents/Java/javafx-controls-20.0.1.jar:/Applications/BlueJ.app/Contents/Java/javafx-fxml-20.0.1-mac.jar:/Applications/BlueJ.app/Contents/Java/javafx-controls-20.0.1-mac.jar:/Applications/BlueJ.app/Contents/Java/javafx-web-20.0.1-mac.jar:/Applications/BlueJ.app/Contents/Java/javafx-media-20.0.1.jar:/Applications/BlueJ.app/Contents/Java/javafx-base-20.0.1-mac.jar:/Applications/BlueJ.app/Contents/Java/javafx-media-20.0.1-mac.jar:/Applications/BlueJ.app/Contents/Java/javafx-graphics-20.0.1-mac.jar:/Applications/BlueJ.app/Contents/Java/javafx-swing-20.0.1-mac.jar:/Applications/BlueJ.app/Contents/Java/junit-4.12.jar:/Applications/BlueJ.app/Contents/Java/junit-jupiter-params-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-jupiter-api-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-jupiter-engine-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-platform-suite-api-1.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-vintage-engine-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-jupiter-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-platform-engine-1.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-platform-launcher-1.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-platform-commons-1.5.2.jar:/Applications/BlueJ.app/Contents/Java/hamcrest-core-1.3.jar:/Applications/BlueJ.app/Contents/Java/opentest4j-1.2.0.jar:/Applications/BlueJ.app/Contents/Java/lang-stride.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.base.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.controls.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.fxml.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.graphics.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.media.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.properties.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.swing.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.web.jar:/Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas
+-d
+/Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-doctitle
+PRYLAB5_VARGAS_GUSTAVO_Cuentas
+-windowtitle
+PRYLAB5_VARGAS_GUSTAVO_Cuentas
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-link
+https://docs.oracle.com/en/java/javase/17/docs/api/
+logicadenegocios
+aplicacion
+<---- end of javadoc command ---->
+Loading source files for package logicadenegocios...
+Loading source files for package aplicacion...
+Constructing Javadoc information...
+Building index for all the packages and classes...
+Standard Doclet version 17.0.4.1+1
+Building tree for all the packages and classes...
+Generating /Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/doc/aplicacion/AplCuenta.html...
+Generating /Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/doc/logicadenegocios/Cliente.html...
+/Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/logicadenegocios/Cliente.java:19: warning: @param argument "String" is not a parameter name.
+   * @param String pCedula recibe String Cedula 
+     ^
+/Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/logicadenegocios/Cliente.java:20: warning: @param argument "String" is not a parameter name.
+   * @param String pNombre recibe String Nombre 
+     ^
+/Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/logicadenegocios/Cliente.java:21: warning: @param argument "String" is not a parameter name.
+   * @param String pApellido recibe String Apellido
+     ^
+/Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/logicadenegocios/Cliente.java:71: warning: @param argument "Object" is not a parameter name.
+   * @param Object pCliente. 
+     ^
+Generating /Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/doc/logicadenegocios/Cuenta.html...
+/Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/logicadenegocios/Cuenta.java:22: warning: @param argument "Cliente" is not a parameter name.
+   * @param Cliente pDuenio recibe Cliente pDuenio 
+     ^
+/Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/logicadenegocios/Cuenta.java:23: warning: @param argument "double" is not a parameter name.
+   * @param double pMonto recibe Double pMonto 
+     ^
+/Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/logicadenegocios/Cuenta.java:89: warning: @param argument "double" is not a parameter name.
+   * @param double pMonto 
+     ^
+/Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/logicadenegocios/Cuenta.java:109: warning: @param argument "double" is not a parameter name.
+   * @param double pMonto 
+     ^
+/Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/logicadenegocios/Cuenta.java:151: warning: @param argument "Object" is not a parameter name.
+   * @param Object pCuenta. 
+     ^
+Generating /Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/doc/logicadenegocios/Operacion.html...
+/Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/logicadenegocios/Operacion.java:16: warning: @param argument "int" is not a parameter name.
+   * @param int pNumero recibe int pNumero (# de Operación) 
+     ^
+/Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/logicadenegocios/Operacion.java:17: warning: @param argument "String" is not a parameter name.
+   * @param String pTipo recibe String pTipo (Retiro o depósito)
+     ^
+/Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/logicadenegocios/Operacion.java:18: warning: @param argument "double" is not a parameter name.
+   * @param double pMonto recibe double pMonto
+     ^
+Generating /Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/doc/aplicacion/package-summary.html...
+Generating /Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/doc/aplicacion/package-tree.html...
+Generating /Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/doc/logicadenegocios/package-summary.html...
+Generating /Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/doc/logicadenegocios/package-tree.html...
+Generating /Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/doc/overview-tree.html...
+Generating /Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/doc/index.html...
+Building index for all classes...
+Generating /Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/doc/allclasses-index.html...
+Generating /Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/doc/allpackages-index.html...
+Generating /Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/doc/index-all.html...
+Generating /Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/doc/overview-summary.html...
+Generating /Users/guvargas/ITCR/IS2024/POO/Laboratorios/LAB5_VARGAS_GUSTAVO_Cuentas/PRYLAB5_VARGAS_GUSTAVO_Cuentas/doc/help-doc.html...
+12 warnings

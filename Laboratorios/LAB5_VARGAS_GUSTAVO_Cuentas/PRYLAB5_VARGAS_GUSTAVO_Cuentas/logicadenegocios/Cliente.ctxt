@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Cliente
+comment1.params=pCedula\ pNombre\ pApellido
+comment1.target=Cliente(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructor\ de\ clase\ Cliente\n\ Inicializa\ el\ cliente\ y\ establece\ la\ informacion\ inicial.\n\ Configura\:\n\ 1.\ Cedula\ del\ cliente.\n\ 2.\ Nombre\ del\ cliente.\n\ 3.\ Apellido\ del\ cliente.\n\ \n\ \n\ @param\ String\ pCedula\ recibe\ String\ Cedula\ \n\ @param\ String\ pNombre\ recibe\ String\ Nombre\ \n\ @param\ String\ pApellido\ recibe\ String\ Apellido\n\ \n
+comment2.params=
+comment2.target=java.lang.String\ getCedula()
+comment3.params=
+comment3.target=java.lang.String\ getNombre()
+comment4.params=
+comment4.target=java.lang.String\ getApellido()
+comment5.params=pCedula
+comment5.target=void\ setCedula(java.lang.String)
+comment6.params=pNombre
+comment6.target=void\ setNombre(java.lang.String)
+comment7.params=pApellido
+comment7.target=void\ setApellido(java.lang.String)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\n\ M\u00E9todo\ toString\n\ Imprime\ c\u00E9dula\ y\ nombre\ completo\ del\ cliente\n\ No\ recibe\ par\u00E1metros.\ \n\ \n
+comment9.params=pCliente
+comment9.target=boolean\ equals(java.lang.Object)
+comment9.text=\n\ M\u00E9todo\ equals\n\ Recibe\ objeto\ de\ tipo\ Cliente\ y\ compara\ consigo\ mismo\ para\ determinar\ si\ son\ iguales.\n\ @param\ Object\ pCliente.\ \n\ \n
+numComments=10

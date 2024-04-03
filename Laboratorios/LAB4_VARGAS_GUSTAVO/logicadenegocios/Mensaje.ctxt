@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Mensaje
+comment1.params=pNumero\ pTipo\ pMensaje
+comment1.target=Mensaje(int,\ char,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=java.lang.String\ getMensaje()
+comment4.params=
+comment4.target=char\ getTipo()
+comment5.params=
+comment5.target=int\ getNumero()
+numComments=6

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Operacion
+comment1.params=pNumero\ pTipo\ pMonto
+comment1.target=Operacion(int,\ java.lang.String,\ double)
+comment1.text=\n\ Constructor\ de\ clase\ Operacion\n\ @param\ int\ pNumero\ recibe\ int\ pNumero\ (\#\ de\ Operaci\u00F3n)\ \n\ @param\ String\ pTipo\ recibe\ String\ pTipo\ (Retiro\ o\ dep\u00F3sito)\n\ @param\ double\ pMonto\ recibe\ double\ pMonto\n\ Inicializa\ la\ cuenta\ y\ establece\ la\ informaci\u00F3n\ inicial.\n\ Configura\:\n\ 1.\ A\u00F1ade\ \#\ de\ operaci\u00F3n.\n\ 2.\ Configura\ si\ es\ retiro\ o\ dep\u00F3sito.\n\ 3.\ Suma\ o\ resta\ pMonto\ al\ saldo\ de\ la\ cuenta.\n
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment10.text=\n\ M\u00E9todo\ toString\n\ Imprime\ toda\ la\ informacion\ de\ la\ operaci\u00F3n.\n\ \#\ de\ operaci\u00F3n.\n\ Fecha\ de\ la\ operaci\u00F3n.\n\ Retiro\ o\ dep\u00F3sito\n\ Monto.\n\ No\ recibe\ par\u00E1metros.\ \n
+comment2.params=
+comment2.target=int\ getNumero()
+comment3.params=
+comment3.target=java.lang.String\ getTipo()
+comment4.params=
+comment4.target=double\ getMonto()
+comment5.params=
+comment5.target=java.lang.String\ getFechaOperacion()
+comment6.params=pNumero
+comment6.target=void\ setNumero(int)
+comment7.params=pTipo
+comment7.target=void\ setTipo(java.lang.String)
+comment8.params=pMonto
+comment8.target=void\ setMonto(double)
+comment9.params=
+comment9.target=void\ setFechaOperacion()
+numComments=11
