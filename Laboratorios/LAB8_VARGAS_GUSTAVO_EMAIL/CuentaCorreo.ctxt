@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=CuentaCorreo
+comment0.text=\n\ Write\ a\ description\ of\ class\ CuentaCorreo\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=pCorreo
+comment1.target=CuentaCorreo(java.lang.String)
+comment2.params=
+comment2.target=javax.mail.Session\ abrirSesion()
+comment3.params=
+comment3.target=javax.mail.PasswordAuthentication\ getPasswordAuthentication()
+comment4.params=destinatario\ tituloCorreo\ cuerpo
+comment4.target=void\ enviarCorreo(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment5.params=destinatario\ tituloCorreo\ cuerpo\ archivosAdjuntos
+comment5.target=void\ enviarCorreo(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String[])
+numComments=6
