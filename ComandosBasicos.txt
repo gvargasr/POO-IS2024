@@ -1,0 +1,66 @@
+## Linux commands
+
+pwd
+cd <directory>
+cd .. (going back)
+mkdir <nombre>
+ls (lista de archivos)  ls -l    ls -a
+rm <nombre> eliminar file
+mv <nombre original> <nombre nuevo>
+
+## Comandos Git
+
+
+git --version
+
+git init <<< crea el directory as git
+
+-----
+## Crear repository
+git config --global user.name "Gustavo Vargas"
+git config --global user.email guvargas@gmail.com
+
+#configurar editor de texto
+git config --global core.editor "code --wait"
+git config --global -e
+git config --global core.autocrlf    (true for windows / input for mac and linux)
+
+git status
+git status -s
+git add <nombre>  // git add *.txt  // git add .
+git commit <nombre> -m "Descripcion del cambio"
+git rm <nombre>
+git restore --staged <nombre>
+git restore <nombre>
+git mv <nombre original> <nombre nuevo> 
+git diff    (antes de darle add)
+git diff --staged  (cambios en archivos que estan staged)
+git log
+git log --oneline
+
+## Crear Branches
+git status 
+git branch    (muestra en cual branch estamos)
+git checkout -b <nombre de branch>  (se moviliza a una nueva rama)
+git checkout main (movilizarse a rama main)
+git merge <nombre de la rama>  (fusiona las ramas, solo sirve en rama main)
+Git branch -m master main
+
+## ignorar archivos
+crear archivo .env   y agregar la informacion que quiero tener
+crear archivo .gitignore y agregar en la primera linea (los archivos que quiero ignorar como por ejemplo .env)
+
+
+Subir codigo a GitHub
+Ir a GitHub, crear nuevo repository
+Ponerle nombre, publico, "create repository".
+git remote add origin <url del repository>
+git push -u origin main  (se hace solo la primera vez)
+Nombre de usuario (gvargasr)
+password >>>
+GitHub >> Settings >> Developer Settings >> Personal Access Tokens >> Generate New Token:
+- ponerle nombre al token
+- todas las opciones del repository
+- generate token, then copy and paste token
+
+git push (si ya esta configurado)
