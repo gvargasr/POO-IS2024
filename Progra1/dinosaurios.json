@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-9S3vRhVUEfJGj9Pgp9E4I5BWZTX9b",
+  "object": "chat.completion",
+  "created": 1.716475301E9,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0.0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"preguntas\": [\n    {\n      \"pregunta\": \"¿Cuál era el nombre del dinosaurio volador más grande que ha existido?\",\n      \"opciones\": [\n        {\"respuesta\": \"Quetzalcoatlus\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Pteranodon\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Pterodaustro\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Dimorphodon\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Qué dinosaurio volador se caracteriza por tener una cresta en forma de media luna en su cabeza?\",\n      \"opciones\": [\n        {\"respuesta\": \"Pteranodon\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Tapejara\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Quetzalcoatlus\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Rhamphorhynchus\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuál era el dinosaurio volador que se asemeja a una especie de murciélago gigante?\",\n      \"opciones\": [\n        {\"respuesta\": \"Dimorphodon\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Pterodaustro\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Pteranodon\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Pteropus\", \"correcta\": \"si\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuál de estos dinosaurios voladores tenía dientes muy largos y afilados?\",\n      \"opciones\": [\n        {\"respuesta\": \"Quetzalcoatlus\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Tapejara\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Rhamphorhynchus\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Dimorphodon\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Qué dinosaurio volador era conocido por tener una envergadura alar de más de 10 metros?\",\n      \"opciones\": [\n        {\"respuesta\": \"Pterodaustro\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Pteranodon\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Quetzalcoatlus\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Tapejara\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuál de estos dinosaurios voladores se cree que era capaz de sumergirse en el agua para pescar?\",\n      \"opciones\": [\n        {\"respuesta\": \"Rhamphorhynchus\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Pteranodon\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Quetzalcoatlus\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Dimorphodon\", \"correcta\": \"no\"}\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 145.0,
+    "completion_tokens": 685.0,
+    "total_tokens": 830.0
+  }
+}

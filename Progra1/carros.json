@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-9Rq12Ka2ReeOEzrGIFpt9exqVIPIL",
+  "object": "chat.completion",
+  "created": 1.716421832E9,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0.0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"preguntas\": [\n    {\n      \"pregunta\": \"¿Cuál es el auto del héroe en la película \u0027Cars\u0027 de Disney?\",\n      \"opciones\": [\n        {\n          \"respuesta\": \"Relámpago McQueen\",\n          \"correcta\": \"si\"\n        },\n        {\n          \"respuesta\": \"Mate\",\n          \"correcta\": \"no\"\n        },\n        {\n          \"respuesta\": \"Doc Hudson\",\n          \"correcta\": \"no\"\n        },\n        {\n          \"respuesta\": \"Sally Carrera\",\n          \"correcta\": \"no\"\n        }\n      ]\n    },\n    {\n      \"pregunta\": \"¿Qué marca de auto es conocida por su logotipo de un caballo rampante?\",\n      \"opciones\": [\n        {\n          \"respuesta\": \"Ferrari\",\n          \"correcta\": \"si\"\n        },\n        {\n          \"respuesta\": \"Lamborghini\",\n          \"correcta\": \"no\"\n        },\n        {\n          \"respuesta\": \"Porsche\",\n          \"correcta\": \"no\"\n        },\n        {\n          \"respuesta\": \"Bugatti\",\n          \"correcta\": \"no\"\n        }\n      ]\n    },\n    {\n      \"pregunta\": \"¿Qué marca de automóviles fabricó el modelo Beetle?\",\n      \"opciones\": [\n        {\n          \"respuesta\": \"Volkswagen\",\n          \"correcta\": \"si\"\n        },\n        {\n          \"respuesta\": \"Ford\",\n          \"correcta\": \"no\"\n        },\n        {\n          \"respuesta\": \"Chevrolet\",\n          \"correcta\": \"no\"\n        },\n        {\n          \"respuesta\": \"Honda\",\n          \"correcta\": \"no\"\n        }\n      ]\n    },\n    {\n      \"pregunta\": \"¿En qué país se produjo el primer automóvil en serie?\",\n      \"opciones\": [\n        {\n          \"respuesta\": \"Alemania\",\n          \"correcta\": \"no\"\n        },\n        {\n          \"respuesta\": \"Estados Unidos\",\n          \"correcta\": \"si\"\n        },\n        {\n          \"respuesta\": \"Francia\",\n          \"correcta\": \"no\"\n        },\n        {\n          \"respuesta\": \"Japón\",\n          \"correcta\": \"no\"\n        }\n      ]\n    },\n    {\n      \"pregunta\": \"¿Qué modelo de auto fue apodado \u0027Eleanor\u0027 en la película \u002760 segundos\u0027?\",\n      \"opciones\": [\n        {\n          \"respuesta\": \"Ford Mustang Shelby GT500\",\n          \"correcta\": \"si\"\n        },\n        {\n          \"respuesta\": \"Chevrolet Camaro\",\n          \"correcta\": \"no\"\n        },\n        {\n          \"respuesta\": \"Dodge Charger\",\n          \"correcta\": \"no\"\n        },\n        {\n          \"respuesta\": \"Pontiac Firebird\",\n          \"correcta\": \"no\"\n        }\n      ]\n    },\n    {\n      \"pregunta\": \"¿Qué marca de autos es conocida por su modelo 911?\",\n      \"opciones\": [\n        {\n          \"respuesta\": \"Porsche\",\n          \"correcta\": \"si\"\n        },\n        {\n          \"respuesta\": \"Audi\",\n          \"correcta\": \"no\"\n        },\n        {\n          \"respuesta\": \"BMW\",\n          \"correcta\": \"no\"\n        },\n        {\n          \"respuesta\": \"Mercedes-Benz\",\n          \"correcta\": \"no\"\n        }\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 146.0,
+    "completion_tokens": 716.0,
+    "total_tokens": 862.0
+  }
+}

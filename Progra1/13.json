@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-9RqawcU70tX9a5N7mwoauuC0eisDQ",
+  "object": "chat.completion",
+  "created": 1.716424058E9,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0.0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"preguntas\": [\n    {\n      \"pregunta\": \"¿Cuántos meses tiene el año?\",\n      \"opciones\": [\n        {\"respuesta\": \"12 meses\", \"correcta\": \"si\"},\n        {\"respuesta\": \"10 meses\", \"correcta\": \"no\"},\n        {\"respuesta\": \"6 meses\", \"correcta\": \"no\"},\n        {\"respuesta\": \"24 meses\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuántos lados tiene un triángulo?\",\n      \"opciones\": [\n        {\"respuesta\": \"3 lados\", \"correcta\": \"si\"},\n        {\"respuesta\": \"4 lados\", \"correcta\": \"no\"},\n        {\"respuesta\": \"5 lados\", \"correcta\": \"no\"},\n        {\"respuesta\": \"2 lados\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuál es el tercer planeta del sistema solar?\",\n      \"opciones\": [\n        {\"respuesta\": \"Tierra\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Marte\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Venus\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Júpiter\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuántos estados conforman los Estados Unidos de América?\",\n      \"opciones\": [\n        {\"respuesta\": \"50 estados\", \"correcta\": \"si\"},\n        {\"respuesta\": \"13 estados\", \"correcta\": \"no\"},\n        {\"respuesta\": \"20 estados\", \"correcta\": \"no\"},\n        {\"respuesta\": \"35 estados\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuántas semanas tiene un trimestre?\",\n      \"opciones\": [\n        {\"respuesta\": \"12 semanas\", \"correcta\": \"si\"},\n        {\"respuesta\": \"8 semanas\", \"correcta\": \"no\"},\n        {\"respuesta\": \"6 semanas\", \"correcta\": \"no\"},\n        {\"respuesta\": \"4 semanas\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuántas caras tiene un dodecaedro?\",\n      \"opciones\": [\n        {\"respuesta\": \"12 caras\", \"correcta\": \"si\"},\n        {\"respuesta\": \"10 caras\", \"correcta\": \"no\"},\n        {\"respuesta\": \"8 caras\", \"correcta\": \"no\"},\n        {\"respuesta\": \"6 caras\", \"correcta\": \"no\"}\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 145.0,
+    "completion_tokens": 559.0,
+    "total_tokens": 704.0
+  }
+}

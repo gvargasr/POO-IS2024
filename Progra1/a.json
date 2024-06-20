@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-9RqXMuq2c1doT0R6Cd3P6IhcVtVP6",
+  "object": "chat.completion",
+  "created": 1.716423836E9,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0.0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"preguntas\": [\n    {\n      \"pregunta\": \"¿Cuál es la capital de Argentina?\",\n      \"opciones\": [\n        {\"respuesta\": \"Buenos Aires\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Santiago de Chile\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Lima\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Río de Janeiro\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Quién escribió Don Quijote de la Mancha?\",\n      \"opciones\": [\n        {\"respuesta\": \"Miguel de Cervantes\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Gabriel García Márquez\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Pablo Neruda\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Mario Vargas Llosa\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿En qué continente se encuentra Egipto?\",\n      \"opciones\": [\n        {\"respuesta\": \"África\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Europa\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Asia\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Oceanía\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuál es el río más largo del mundo?\",\n      \"opciones\": [\n        {\"respuesta\": \"Nilo\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Amazonas\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Misisipi\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Yangtsé\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Quién pintó la Mona Lisa?\",\n      \"opciones\": [\n        {\"respuesta\": \"Leonardo da Vinci\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Pablo Picasso\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Vincent van Gogh\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Diego Rivera\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿En qué año se firmó la Declaración de Independencia de Estados Unidos?\",\n      \"opciones\": [\n        {\"respuesta\": \"1776\", \"correcta\": \"si\"},\n        {\"respuesta\": \"1789\", \"correcta\": \"no\"},\n        {\"respuesta\": \"1804\", \"correcta\": \"no\"},\n        {\"respuesta\": \"1821\", \"correcta\": \"no\"}\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143.0,
+    "completion_tokens": 581.0,
+    "total_tokens": 724.0
+  }
+}

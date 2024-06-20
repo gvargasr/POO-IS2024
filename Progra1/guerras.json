@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-9RrBDdjUCLkHG7WLyhUkpBLYBo7Se",
+  "object": "chat.completion",
+  "created": 1.716426307E9,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0.0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"preguntas\": [\n    {\n      \"pregunta\": \"¿En qué año comenzó la Primera Guerra Mundial?\",\n      \"opciones\": [\n        {\"respuesta\": \"1914\", \"correcta\": \"si\"},\n        {\"respuesta\": \"1918\", \"correcta\": \"no\"},\n        {\"respuesta\": \"1922\", \"correcta\": \"no\"},\n        {\"respuesta\": \"1939\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿En qué país se desarrolló la batalla de Stalingrado durante la Segunda Guerra Mundial?\",\n      \"opciones\": [\n        {\"respuesta\": \"Rusia\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Alemania\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Francia\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Estados Unidos\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuál fue el tratado que puso fin oficialmente a la Primera Guerra Mundial?\",\n      \"opciones\": [\n        {\"respuesta\": \"Tratado de Versalles\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Tratado de París\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Tratado de Trianon\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Tratado de Brest-Litovsk\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿En qué año se firmó el Tratado de Versalles?\",\n      \"opciones\": [\n        {\"respuesta\": \"1919\", \"correcta\": \"si\"},\n        {\"respuesta\": \"1914\", \"correcta\": \"no\"},\n        {\"respuesta\": \"1918\", \"correcta\": \"no\"},\n        {\"respuesta\": \"1922\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Quién fue el líder de Alemania durante la Segunda Guerra Mundial?\",\n      \"opciones\": [\n        {\"respuesta\": \"Adolf Hitler\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Benito Mussolini\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Winston Churchill\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Joseph Stalin\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Qué evento desencadenó la entrada de Estados Unidos en la Segunda Guerra Mundial?\",\n      \"opciones\": [\n        {\"respuesta\": \"Ataque a Pearl Harbor\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Bombardeo de Hiroshima\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Invasión de Normandía\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Batalla de Midway\", \"correcta\": \"no\"}\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 145.0,
+    "completion_tokens": 634.0,
+    "total_tokens": 779.0
+  }
+}

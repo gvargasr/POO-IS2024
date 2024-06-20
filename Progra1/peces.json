@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-9S3lrwBc1PDGbjivWvWWWt8e4lbWZ",
+  "object": "chat.completion",
+  "created": 1.716474707E9,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0.0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"preguntas\": [\n    {\n      \"pregunta\": \"En la película \u0027Buscando a Nemo\u0027, ¿cuál es el nombre del hijo de Marlin?\",\n      \"opciones\": [\n        {\"respuesta\": \"Nemo\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Dory\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Bruce\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Gill\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Qué actor interpreta al Capitán Jack Sparrow en la saga \u0027Piratas del Caribe\u0027?\",\n      \"opciones\": [\n        {\"respuesta\": \"Orlando Bloom\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Johnny Depp\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Geoffrey Rush\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Keira Knightley\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuál es el título de la película de animación de Disney sobre una sirena llamada Ariel?\",\n      \"opciones\": [\n        {\"respuesta\": \"Blancanieves y los siete enanitos\", \"correcta\": \"no\"},\n        {\"respuesta\": \"La bella y la bestia\", \"correcta\": \"no\"},\n        {\"respuesta\": \"La sirenita\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Mulan\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"En la película \u0027Sharknado\u0027, ¿qué tipo de criaturas atacan la ciudad en una tormenta de tornados?\",\n      \"opciones\": [\n        {\"respuesta\": \"Cocodrilos\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Tiburones\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Peces payaso\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Pulpos gigantes\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Quién dirigió la película \u0027Buscando a Dory\u0027, la secuela de \u0027Buscando a Nemo\u0027?\",\n      \"opciones\": [\n        {\"respuesta\": \"Steven Spielberg\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Andrew Stanton\", \"correcta\": \"si\"},\n        {\"respuesta\": \"John Lasseter\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Brad Bird\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuál es el nombre del pez payaso amigo de Nemo en la película \u0027Buscando a Nemo\u0027?\",\n      \"opciones\": [\n        {\"respuesta\": \"Dory\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Gill\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Bubbles\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Peach\", \"correcta\": \"no\"}\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 146.0,
+    "completion_tokens": 663.0,
+    "total_tokens": 809.0
+  }
+}

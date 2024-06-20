@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-9RqDXePBwp3QchPEVbgvxAVPVB21G",
+  "object": "chat.completion",
+  "created": 1.716422607E9,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0.0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"preguntas\": [\n    {\n      \"pregunta\": \"¿Cuál de las siguientes razas de perros es considerada un perro de caza?\",\n      \"opciones\": [\n        {\"respuesta\": \"Labrador Retriever\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Dálmata\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Pointer\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Pug\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Qué raza de perro es conocida por su gran tamaño y pelaje abundante?\",\n      \"opciones\": [\n        {\"respuesta\": \"Beagle\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Golden Retriever\", \"correcta\": \"no\"},\n        {\"respuesta\": \"San Bernardo\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Chihuahua\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Qué perro es considerado una raza de trabajo y tiene una gran capacidad de entrenamiento?\",\n      \"opciones\": [\n        {\"respuesta\": \"Bulldog Francés\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Poodle\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Border Collie\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Bichón Frisé\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuál de estos perros es conocido por ser cariñoso y protector de su familia?\",\n      \"opciones\": [\n        {\"respuesta\": \"Rottweiler\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Pomerania\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Pastor Alemán\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Dachshund\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Qué raza de perro es originaria de México y es conocida por sus orejas grandes y su pelaje corto?\",\n      \"opciones\": [\n        {\"respuesta\": \"Shih Tzu\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Husky Siberiano\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Chihuahua\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Bulldog Inglés\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Qué raza de perro es famosa por su habilidad en la caza de ratas y su pequeño tamaño?\",\n      \"opciones\": [\n        {\"respuesta\": \"Doberman\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Boston Terrier\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Terrier Escocés\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Poodle\", \"correcta\": \"no\"}\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 145.0,
+    "completion_tokens": 658.0,
+    "total_tokens": 803.0
+  }
+}

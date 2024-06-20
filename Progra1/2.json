@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-9RqK2JALlAZvk5xHgM3Y48uqZEmtG",
+  "object": "chat.completion",
+  "created": 1.71642301E9,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0.0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"preguntas\": [\n    {\n      \"pregunta\": \"¿Cuál es el país más grande de Sudamérica?\", \n      \"opciones\": [\n        {\"respuesta\": \"Argentina\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Brasil\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Colombia\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Perú\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuál es el océano más grande del planeta?\", \n      \"opciones\": [\n        {\"respuesta\": \"Océano Atlántico\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Océano Pacífico\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Océano Índico\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Océano Ártico\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuál es el río más largo del mundo?\", \n      \"opciones\": [\n        {\"respuesta\": \"Río Nilo\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Río Amazonas\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Río Yangtsé\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Río Misisipi\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿En qué continente se encuentra el desierto del Sahara?\", \n      \"opciones\": [\n        {\"respuesta\": \"África\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Asia\", \"correcta\": \"no\"},\n        {\"respuesta\": \"América\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Europa\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuál es la capital de Australia?\", \n      \"opciones\": [\n        {\"respuesta\": \"Melbourne\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Sídney\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Canberra\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Brisbane\", \"correcta\": \"no\"}\n      ]\n    },\n    {\n      \"pregunta\": \"¿Cuál es la tribu indígena más numerosa en la Amazonía?\", \n      \"opciones\": [\n        {\"respuesta\": \"Yanomamis\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Tucanos\", \"correcta\": \"no\"},\n        {\"respuesta\": \"Tupí-guaraní\", \"correcta\": \"si\"},\n        {\"respuesta\": \"Kayapós\", \"correcta\": \"no\"}\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 145.0,
+    "completion_tokens": 602.0,
+    "total_tokens": 747.0
+  }
+}
